@@ -4,27 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>globleFooter</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+            color: #FFFFFF;
+        }
+        .fBox{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .globleFooter {
+            background-color: #8C1515;
+            max-height: 155px;
+        }
+        .containerGlobleFooter{
+            margin: 0 auto;
+            padding: 24px;
+            width: 1500px;
+            justify-content: flex-start;
+        }
+        .collegeName{
+            color: #FFFFFF;
+            padding: 0;
+            width: 158PX;
+            text-align: center;
+            flex-direction: column;
+        }
+        .namePart, .namePart2{
+            font-family: Stanford, "Source Serif Pro", Georgia, Times, "Times New Roman", serif;
+        }
+        .namePart1{
+            font-size: 25px;
+        }
+        .namePart2{
+            font-size: 30px;
+        }
+        .namePart3{
+            font-size: 22px;
+        }
+        .namePart4{
+            font-size: 15px;
+            margin-top: 3px;
+        }
+        .containerGFNav{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 53px;
+        }
+        .ul1{
+            font-weight: 600;
+        }
+        .gFooterNav ul{
+            margin-bottom: 10px;
+        }
+        .gFooterNav ul li{
+            list-style: none;
+            display: inline-block;
+
+        }
+        .gFooterNav ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 28px;
+            margin-bottom: 8px;
+        }
+        .containerGFNav p{
+            text-align: left;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
     <section class="globleFooter">
-        <div class="div"></div>
-        <nav>
-            <ul>
-                <li><a href="#">Stanford Home</a></li>
-                <li><a href="#">Maps & Directions</a></li>
-                <li><a href="#">Search College</a></li>
-                <li><a href="#">Emergency Info</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Copyright</a></li>
-                <li><a href="#">Trademarks</a></li>
-                <li><a href="#">Non-Discrimination</a></li>
-                <li><a href="#">Accessibility</a></li>
-            </ul>
-        </nav>
-        <div><p>©Copyright Stanford University.   Stanford, California 94305.</p></div>
+        <div class="containerGlobleFooter fBox">
+            <div class="collegeName fBox">
+                <div class="namePart namePart1">Shri</div>
+                <div class="namePart namePart2">Vishwanath</div>
+                <div class="namePart namePart3">Group of</div>
+                <div class="namePart namePart4">Institution</div>
+            </div>
+            <div class="containerGFNav fBox">
+                <nav class="gFooterNav">
+                    <ul class="ul1">
+                        <li><a href="#">Stanford Home</a></li>
+                        <li><a href="#">Maps & Directions</a></li>
+                        <li><a href="#">Search College</a></li>
+                        <li><a href="#">Emergency Info</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Copyright</a></li>
+                        <li><a href="#">Trademarks</a></li>
+                        <li><a href="#">Non-Discrimination</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div><p>©Copyright Stanford University.   Stanford, California 94305.</p></div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
