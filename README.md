@@ -1,4 +1,4 @@
-Visite : <a href="https://technicalmastersp.github.io/CollegeProject/">College Project</a>
+Visite : <a href="https://technicalmastersp.github.io/CollegeProject/" target="_blank">College Project</a>
 
 
 # CollegeProject
