@@ -11,14 +11,9 @@
         }
         .fBox{
             display: flex;
-            align-items: center;
-            justify-content: center;
         }
-        body{
-            background: #000;
-            font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
-        }
-        .footer{
+        .homeFooter{
+            font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
             background-color: #ffffff !important;            
             padding-top: 35px;
         }
@@ -27,7 +22,8 @@
             max-width: 1500px;
             align-items: flex-start !important;
             justify-content: space-between;
-            padding: 0 35px;
+            padding: 0 35px 8px;
+            column-gap: 15px;
         }
         .footerMenu div{
             max-width: 210px;
@@ -48,6 +44,7 @@
             text-transform: uppercase;
             font-size: 19px;
             margin: 0.8em 0;
+            user-select: none;
         }
         .box6{
             height: 360px;
@@ -63,11 +60,19 @@
             text-transform: capitalize;
             font-stretch: expanded;
         }
+        .footerMenu div a:hover{
+            text-decoration: underline;
+            color: #006CD8;
+        }
+        .footerMenu .box6 a:hover{
+            color: #b1040e;
+            border: 1px solid #b1040e;
+            text-decoration: none;
+        }
     </style>    
 </head>
 <body>
-    <section class="preFooter"></section>
-    <section class="footer">
+    <section class="homeFooter">
         <div class="footerMenu fBox">
             <div class="box1">
                 <h3>Schoole</h3>
